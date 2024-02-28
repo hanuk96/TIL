@@ -23,7 +23,8 @@ Bean의 생명주기에서, @PostConstruct는 Spring application 로딩시 '초�
 <br>
 
 ### @PostConstruct
-```@Component
+```java
+@Component
 public class DbInit {
 
     @Autowired
@@ -39,7 +40,7 @@ public class DbInit {
 ```
 
 ### @PreDestroy
-```
+```java
 @Component
 public class UserRepository {
 
