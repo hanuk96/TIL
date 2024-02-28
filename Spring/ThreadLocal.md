@@ -1,7 +1,8 @@
 # ThreadLocal
 ThreadLocal이란 해당하는 Thread만 접근할 수 있는 특별한 저장소를 말한다. 
 
-트래픽이 많은 서비스에서 동시성 처리를 위해 ThreadLocal을 사용하거나, Transaction manager의 datasource 정보를 보관하는 등 다양한 요청에서 사용한다.
+트래픽이 많은 서비스에서 동시성 처리를 위해 ThreadLocal을 사용하거나,
+Transaction Synchronization manager의 datasource의 Connection 정보를 보관하여 전달하는 등 다양한 요청에서 사용한다.
 
 <img width="600" alt="image" src="https://github.com/hanuk96/TIL/assets/12428689/7c27516c-9c84-4c73-b2ad-2b09bb4a197c">
 
