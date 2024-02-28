@@ -1,3 +1,5 @@
+# @PostConstruct / @PreDestroy
+
 결제승인 로직간 DB에 있는 인증 key값을 가져오는 @Repository Bean이 존재
 
 해당 Bean은 결제를 할때마다 호출하여, 성능개선을 위해 @PostConstruct annotation을 사용
