@@ -6,3 +6,4 @@
 
 ### [Spring](https://github.com/hanuk96/TIL/tree/main/Spring)
 - [ThreadLocal](https://github.com/hanuk96/TIL/blob/main/Spring/%EB%A1%9C%EA%B7%B8%20%EC%B6%94%EC%A0%81%EA%B8%B0)
+- [의존성 주입방법 비교 - @Autowired vs 생성자 주입](https://github.com/hanuk96/TIL/blob/main/Spring/%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85%EB%B0%A9%EB%B2%95%EB%B9%84%EA%B5%90.md)
