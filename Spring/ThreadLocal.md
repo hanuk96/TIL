@@ -11,7 +11,6 @@ ThreadLocal이란 해당하는 Thread만 접근할 수 있는 특별한 저장�
 @Slf4j
 @NoArgsConstructor
  public class FieldServiceTest {
-    //로그를 저장하는 로직
     Private final FieldService fieldService;
 
     @Test
@@ -67,3 +66,48 @@ ThreadLocal이란 해당하는 Thread만 접근할 수 있는 특별한 저장�
 <img width="300" alt="image" src="https://github.com/hanuk96/TIL/assets/12428689/64722afc-b457-423f-9dc3-6b3bb646de44">
 <img width="300" alt="image" src="https://github.com/hanuk96/TIL/assets/12428689/0df3f271-fef9-4aa7-b7bb-eb7cd039f4ae">
 <img width="300" alt="image" src="https://github.com/hanuk96/TIL/assets/12428689/2aab354a-b99b-4ee2-8a2a-97d1b1437db4">
+
+<br>
+ThreadLocal을 저장할 인스턴스에 적용해보자.
+<br><br>
+
+```java
+@Slf4j
+public class ThreadLocalService {
+     private ThreadLocal<String> nameStore = new ThreadLocal<>();
+
+     public String logic(String name) {
+     log.info("저장 name={} -> nameStore={}", name, nameStore.get()); nameStore.set(name);
+     sleep(1000);
+
+     log.info("조회 nameStore={}",nameStore.get());
+         return nameStore.get();
+     }
+
+     private void sleep(int millis) {
+         try {
+             Thread.sleep(millis);
+         } catch (InterruptedException e) {
+             e.printStackTrace();
+         }
+     }
+}
+```
+
+아래와 같이 동시성이슈가 해결된 모습을 확인할 수 있다.
+
+```
+[Test worker] main start
+[Thread-A] 저장 name=userA -> nameStore=null
+[Thread-A] 조회 nameStore=userA
+[Thread-B] 저장 name=userB -> nameStore=null
+[Thread-B] 조회 nameStore=userB
+[Test worker] main exit
+```
+
+```
+주의!!
+
+해당 쓰레드가 쓰레드 로컬을 모두 사용하고 나면 `ThreadLocal.remove()` 를 호출해서 ThreadLocal에 저장 된 값을 제거해주어야 한다.
+그렇지 않으면 Thread끼리 정합성 보장이 되지 않는 문제가 발생할 수 있으므로, 반드시 값을 제거해주어야한다.
+```
