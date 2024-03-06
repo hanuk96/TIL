@@ -9,6 +9,7 @@
 - [ThreadLocal](https://github.com/hanuk96/TIL/blob/main/Spring/ThreadLocal.md)
 - [의존성 주입방법 비교 - @Autowired vs 생성자 주입](https://github.com/hanuk96/TIL/blob/main/Spring/%EC%9D%98%EC%A1%B4%EC%84%B1%EC%A3%BC%EC%9E%85%EB%B0%A9%EB%B2%95%EB%B9%84%EA%B5%90.md)
 - [동적 프록시](https://github.com/hanuk96/TIL/blob/main/Spring/%EB%8F%99%EC%A0%81%ED%94%84%EB%A1%9D%EC%8B%9C.md)
+- [CGLIB](https://github.com/hanuk96/TIL/blob/main/Spring/Cglib.md)
 
 ### 디자인패턴
 - [템플릿 메서드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
