@@ -10,7 +10,7 @@ Transaction Synchronization manager의 datasource의 Connection 정보를 보관
 
 ```java
 @Slf4j
-@NoArgsConstructor
+@RequiredArgsConstructor
  public class FieldServiceTest {
     Private final FieldService fieldService;
 
