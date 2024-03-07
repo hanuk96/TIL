@@ -11,6 +11,7 @@
 - [동적 프록시](https://github.com/hanuk96/TIL/blob/main/Spring/%EB%8F%99%EC%A0%81%ED%94%84%EB%A1%9D%EC%8B%9C.md)
 - [CGLIB](https://github.com/hanuk96/TIL/blob/main/Spring/Cglib.md)
 - [프록시 팩토리](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A9%ED%86%A0%EB%A6%AC.md)
+- [어드바이저(포인트컷 + 어드바이스)](https://github.com/hanuk96/TIL/blob/main/Spring/%EC%96%B4%EB%93%9C%EB%B0%94%EC%9D%B4%EC%A0%80.md)
 
 ### 디자인패턴
 - [템플릿 메서드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
