@@ -23,5 +23,6 @@
 - [데코레이터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%ED%8C%A8%ED%84%B4.md)
 
 ### Java
+- [JVM](https://github.com/hanuk96/TIL/blob/main/Java/Jvm.md)
 - [Generic](https://github.com/hanuk96/TIL/blob/main/Java/%EC%A0%9C%EB%84%A4%EB%A6%AD.md)
 - [Reflection](https://github.com/hanuk96/TIL/blob/main/Java/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98.md)
