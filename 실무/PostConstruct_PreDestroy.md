@@ -13,12 +13,14 @@ spring bean 초기화시 맨 처음 한번만 호출되어, 두 번 이상 호�
 ```
 스프링 컨테이너 생성 => 스프링 Bean의 생성 => 의존성 주입 => 초기화 콜백 => 사용 => 소멸전 콜백 => 스프링 종료
 ```
-<br>
+
 (bean 생성자 주입의 경우에는 생성과 주입이 동시에 일어남 - compile time에 에러 확인가능)
-<br>
-Bean의 생명주기에서, @PostConstruct는 Spring application 로딩시 '초기화 콜백'으로 사용된다.
-<br>
-말 그대로 초기화를 위한 콜백 생성자 역할을 한다고 생각했다.
+
+Bean의 생명주기에서, @PostConstruct는 Spring application 로딩시 '초기화 콜백'으로 한번 사용된다.
+
+스프링은 `CommonAnnotationBeanPostProcessor` 라는 빈 후처리기를 자동으로 등록하는데, 
+
+여기에서 `@PostConstruct` 애노테이션이 붙은 메서드를 호출한다.
 <br><br>
 아래의 코드의 UserRepository라는 Bean이 생성되고, 의존성을 주입한뒤 초기화 되는걸 볼 수 있다.
 
