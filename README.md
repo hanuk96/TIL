@@ -29,6 +29,7 @@
 
 [구조 패턴]
 - [어댑터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%96%B4%EB%8C%91%ED%84%B0%ED%8C%A8%ED%84%B4.md)
+- [브릿지 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%B8%8C%EB%A6%BF%EC%A7%80%ED%8C%A8%ED%84%B4.md)
 
 [행동 패턴]
 - [템플릿 메서드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
