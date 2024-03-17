@@ -40,6 +40,7 @@
 [행동 패턴]
 - [책임 연쇄 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%B1%85%EC%9E%84%EC%97%B0%EC%87%84%ED%8C%A8%ED%84%B4.md)
 - [커맨드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%BB%A4%EB%A7%A8%EB%93%9C%ED%8C%A8%ED%84%B4.md)
+- [인터프리터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0%ED%8C%A8%ED%84%B4.md)
 - [템플릿 메서드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
 - [전략 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4.md)
 - [템플릿 콜백 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EC%BD%9C%EB%B0%B1%ED%8C%A8%ED%84%B4.md)
