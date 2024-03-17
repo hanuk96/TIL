@@ -30,16 +30,17 @@
 [구조 패턴]
 - [어댑터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%96%B4%EB%8C%91%ED%84%B0%ED%8C%A8%ED%84%B4.md)
 - [브릿지 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%B8%8C%EB%A6%BF%EC%A7%80%ED%8C%A8%ED%84%B4.md)
-- [컴포짓 패턴]()
-- [퍼사드 패턴]()
-- [플라이 웨이트 패턴]()
+- [컴포짓 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%BB%B4%ED%8F%AC%EC%A7%93%ED%8C%A8%ED%84%B4.md)
+- [퍼사드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%8D%BC%EC%82%AC%EB%93%9C%ED%8C%A8%ED%84%B4.md)
+- [플라이 웨이트 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%8C%EB%9D%BC%EC%9D%B4%EC%9B%A8%EC%9D%B4%ED%8A%B8%ED%8C%A8%ED%84%B4.md)
+- [프록시 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A8%ED%84%B4.md)
+- [데코레이터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%ED%8C%A8%ED%84%B4.md)
 
 [행동 패턴]
 - [템플릿 메서드 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EB%A9%94%EC%84%9C%EB%93%9C%ED%8C%A8%ED%84%B4.md)
 - [전략 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4.md)
 - [템플릿 콜백 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%85%9C%ED%94%8C%EB%A6%BF%EC%BD%9C%EB%B0%B1%ED%8C%A8%ED%84%B4.md)
-- [프록시 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%ED%94%84%EB%A1%9D%EC%8B%9C%ED%8C%A8%ED%84%B4.md)
-- [데코레이터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%ED%8C%A8%ED%84%B4.md)
+
 
 ### Java
 - [JVM](https://github.com/hanuk96/TIL/blob/main/Java/Jvm.md)
