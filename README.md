@@ -11,6 +11,8 @@
 
 [Transaction]
 - [Transaction](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
+- [Transaction Option](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%98%B5%EC%85%98.md)
+- [Transaction 적용](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%A0%81%EC%9A%A9.md)
 - [JDBC](https://github.com/hanuk96/TIL/blob/main/Spring/Jdbc.md)
 - [Connection Pool & DataSource](https://github.com/hanuk96/TIL/blob/main/Spring/ConnectionPool.md)
 
