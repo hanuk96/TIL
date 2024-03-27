@@ -64,3 +64,4 @@
 - [비지터 패턴](https://github.com/hanuk96/TIL/blob/main/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4/%EB%B9%84%EC%A7%80%ED%84%B0%ED%8C%A8%ED%84%B4.md)
 
 ### Refactoring
+- [이해하기 힘든 이름](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0%ED%9E%98%EB%93%A0%EC%9D%B4%EB%A6%84.md)
