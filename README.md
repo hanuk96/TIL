@@ -14,7 +14,7 @@
 - [Transaction Option](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%98%B5%EC%85%98.md)
 - [Transaction 적용](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%A0%81%EC%9A%A9.md)
 - [Transaction 전파](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%A0%84%ED%8C%8C.md)
-- [Transaction 전파옵션]()
+- [Transaction 전파옵션](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%A0%84%ED%8C%8C%EC%98%B5%EC%85%98.md)
 - [JDBC](https://github.com/hanuk96/TIL/blob/main/Spring/Jdbc.md)
 - [Connection Pool & DataSource](https://github.com/hanuk96/TIL/blob/main/Spring/ConnectionPool.md)
 
