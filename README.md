@@ -65,3 +65,17 @@
 
 ### Refactoring
 - [이해하기 힘든 이름](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0%ED%9E%98%EB%93%A0%EC%9D%B4%EB%A6%84.md)
+- [중복 코드]
+- [긴 함수]
+- [긴 매개변수 목록]
+
+
+
+
+
+### 참조
+- 인프런
+ - 스프링 DB 1편 - 데이터 접근 핵심 원리
+ - 스프링 DB 2편 - 데이터 접근 확용 기술
+ - 코딩으로 학습하는 goF의 디자인 패턴턴
+ - 코딩으로 학습하는 리팩토링
