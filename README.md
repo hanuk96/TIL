@@ -67,7 +67,7 @@
 - [이해하기 힘든 이름](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0%ED%9E%98%EB%93%A0%EC%9D%B4%EB%A6%84.md)
 - [중복 코드](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%A4%91%EB%B3%B5%20%EC%BD%94%EB%93%9C.md)
 - [긴 함수](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B4%20%ED%95%A8%EC%88%98.md)
-- [긴 매개변수 목록]([https://github.com/hanuk96/TIL/tree/main/refactoring](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B4%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EB%AA%A9%EB%A1%9D.md))
+- [긴 매개변수 목록](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B4%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EB%AA%A9%EB%A1%9D.md)
 - [데이터](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%8D%B0%EC%9D%B4%ED%84%B0.md)
 - [뒤엉킨 변형](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%92%A4%EC%97%89%ED%82%A8%20%EB%B3%80%EA%B2%BD.md)
 
