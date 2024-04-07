@@ -72,7 +72,8 @@
 - [뒤엉킨 변형](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%92%A4%EC%97%89%ED%82%A8%20%EB%B3%80%EA%B2%BD.md)
 - [산탄총 수술](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%82%B0%ED%83%84%EC%B4%9D%EC%88%98%EC%88%A0.md)
 - [기능편애](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B0%EB%8A%A5%ED%8E%B8%EC%95%A0.md)
-- 
+- [데이터 뭉치](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AD%89%EC%B9%98.md)
+- [기본형 집]()
 
 ### Kafka
 
