@@ -75,12 +75,12 @@
 - [데이터 뭉치](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AD%89%EC%B9%98.md)
 - [기본형 집착](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B0%EB%B3%B8%ED%98%95%EC%A7%91%EC%B0%A9.md)
 - [반복되는 Switch문](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94Switch%EB%AC%B8.md)
-- [반복문]()
-- [성의없는 요소]()
-- [임시필드]()
-- [추측성 일반화]()
-- [메시지 체인]()
-- [중재자]()
+- [반복문](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
+- [성의없는 요소](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%84%B1%EC%9D%98%EC%97%86%EB%8A%94%EC%9A%94%EC%86%8C.md)
+- [임시필드](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%9E%84%EC%8B%9C%ED%95%84%EB%93%9C.md)
+- [추측성 일반화](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%B6%94%EC%B8%A1%EC%84%B1%EC%9D%BC%EB%B0%98%ED%99%94.md)
+- [메시지 체인](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%A9%94%EC%84%B8%EC%A7%80%EC%B2%B4%EC%9D%B8.md)
+- [중재자](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%A4%91%EC%9E%AC%EC%9E%90.md)
 - [내부자 거래]()
 
 ### Kafka
