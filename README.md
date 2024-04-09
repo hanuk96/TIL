@@ -81,7 +81,7 @@
 - [추측성 일반화](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%B6%94%EC%B8%A1%EC%84%B1%EC%9D%BC%EB%B0%98%ED%99%94.md)
 - [메시지 체인](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%A9%94%EC%84%B8%EC%A7%80%EC%B2%B4%EC%9D%B8.md)
 - [중재자](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%A4%91%EC%9E%AC%EC%9E%90.md)
-- [내부자 거래]()
+- [내부자 거래](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%82%B4%EB%B6%80%EC%9E%90%EA%B1%B0%EB%9E%98.md)
 
 ### Kafka
 
