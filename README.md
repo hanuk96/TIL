@@ -75,6 +75,13 @@
 - [데이터 뭉치](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AD%89%EC%B9%98.md)
 - [기본형 집착](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B8%B0%EB%B3%B8%ED%98%95%EC%A7%91%EC%B0%A9.md)
 - [반복되는 Switch문](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%B0%98%EB%B3%B5%EB%90%98%EB%8A%94Switch%EB%AC%B8.md)
+- [반복문]()
+- [성의없는 요소]()
+- [임시필드]()
+- [추측성 일반화]()
+- [메시지 체인]()
+- [중재자]()
+- [내부자 거래]()
 
 ### Kafka
 
