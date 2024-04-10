@@ -82,6 +82,11 @@
 - [메시지 체인](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%A9%94%EC%84%B8%EC%A7%80%EC%B2%B4%EC%9D%B8.md)
 - [중재자](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%A4%91%EC%9E%AC%EC%9E%90.md)
 - [내부자 거래](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%82%B4%EB%B6%80%EC%9E%90%EA%B1%B0%EB%9E%98.md)
+- [거대한 클래스](https://github.com/hanuk96/TIL/blob/main/refactoring/%EA%B1%B0%EB%8C%80%ED%95%9C%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+- [데이터 클래스](https://github.com/hanuk96/TIL/blob/main/refactoring/%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+- [상속 포기](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%83%81%EC%86%8D%ED%8F%AC%EA%B8%B0.md)
+- [서로 다른 인터페이스의 대안 클래스](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%84%9C%EB%A1%9C%EB%8B%A4%EB%A5%B8%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%9D%98%EB%8C%80%EC%95%88%ED%81%B4%EB%9E%98%EC%8A%A4%EB%93%A4.md)
+- [주석](https://github.com/hanuk96/TIL/blob/main/refactoring/%EC%A3%BC%EC%84%9D.md)
 
 ### Kafka
 
