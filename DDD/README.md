@@ -1,5 +1,5 @@
 도메인 주도 개발 시작하기를 보고 정리한다.
-
+```
 Directory 구조
 └── src
       ├── main
@@ -41,3 +41,4 @@ Directory 구조
       │   │           ├── lock
       │   │           └── config (spring과 관련된 여러 설정, 공통 bean ...)
 └── resource
+```
