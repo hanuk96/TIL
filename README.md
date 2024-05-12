@@ -91,6 +91,9 @@
 ### Kafka
 
 
+### 책
+- [도메인주도 개발 시작하기](https://github.com/hanuk96/TIL/tree/main/DDD)
+- [가상 면접사례로 배우는 대규모 시스템 설계 기초]()
 
 ### 참조
 - 인프런
