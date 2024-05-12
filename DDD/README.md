@@ -1,6 +1,7 @@
 도메인 주도 개발 시작하기를 보고 정리한다.
+
+# Directory 구조
 ```
-Directory 구조
 └── src
       ├── main
       │   ├── java
