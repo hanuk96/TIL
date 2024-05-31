@@ -142,3 +142,55 @@ GET http://localhost:8080/actuator/loggers/hello.controller
 ```
 
 #### HTTP 요청/응답 기록
+- HTTP 요청과 응답의 과거 기록을 확인하고 싶다면 httpexchanges 엔드포인트를 사용하면 된다.
+- HttpExchangeRepository 인터페이스의 구현체를 빈으로 등록하면 httpexchanges 엔드포인트를 사용할 수 있다.
+ - InMemoryHttpExchangeRepository 추가 
+```java
+@SpringBootApplication
+public class ActuatorApplication {
+ public static void main(String[] args) {
+  SpringApplication.run(ActuatorApplication.class, args);
+ }
+
+ @Bean
+ public InMemoryHttpExchangeRepository httpExchangeRepository() {
+  return new InMemoryHttpExchangeRepository();
+ }
+}
+```
+- 이 구현체는 최대 100개의 HTTP 요청을 제공한다.
+- 최대 요청이 넘어가면 과거 요청을 삭제한다.
+ - setCapacity()로 최대 요청수를 변경할 수 있다.
+- 실행 url
+```
+http://localhost:8080/actuator/httpexchanges
+```
+- 단순하나 제한이 많다.
+- 그래서 실제 운영 서비스에서는 모니터링 툴이나 핀포인트, Zipkin 같은 다른 기술을 사용하는 것이 좋다.
+
+#### actuator와 보안
+- 외부 인터넷 망이 공개된 곳에 액츄에이터의 엔드포인트를 공개하는 것은 보안상 좋은 방안이 아니다.
+ - 너무 많은 정보를 제공하기 때문
+#### 방법
+1. 액츄에이터를 다른 포트에서 실행
+ - 예를 들어서 외부 인터넷 망을 통해서 8080 포트에만 접근할 수 있고
+ - 다른 포트는 내부망에서만 접근할 수 있다면 액츄에이터에 다른 포트를 설정하면 된다.
+```yaml
+management.server.port=9292
+```
+url path
+```
+http://localhost:9292/actuator
+```
+2. 액츄에이터 URL 경로에 인증 설정
+- 포트를 분리하는 것이 어렵고 어쩔 수 없이 외부 인터넷 망을 통해서 접근해야 한다면
+- /actuator 경로에 서블릿 필터, 또는 스프링 시큐티리를 통해서 인증된 사용자만 접근 가능하도록 추가 개발이 필요하다.
+3. 내부망에서 엔드포인트를 변경
+- 엔드포인트의 기본 경로를 변경하려면 다음과 같이 설정하면 된다.
+```
+management
+ endpoints:
+  web:
+   base-path: "/manage"
+```
+- /actuator/{엔드포인트} 대신에 /manage/{엔드포인트} 로 변경된다.
