@@ -11,6 +11,7 @@
 
 [Monitoring]
 - [Actuator](https://github.com/hanuk96/TIL/blob/main/Spring/actuator.md)
+- [Micrometer](https://github.com/hanuk96/TIL/blob/main/Spring/micrometer.md)
 
 [Transaction]
 - [Transaction](https://github.com/hanuk96/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.md)
