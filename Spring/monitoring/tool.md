@@ -57,3 +57,55 @@ scrape_configs:
 ```
 
 #### 프로메테우스 - 기본 기능
+기본 기능
+- Table Evaluation time 을 수정해서 과거 시간 조회 가능
+- Graph 메트릭을 그래프로 조회 가능
+
+필터
+- 레이블을 기준으로 필터를 사용할 수 있다. 필터는 중괄호( {} ) 문법을 사용한다.
+- uri=/log , method=GET 조건으로 필터
+  - http_server_requests_seconds_count{uri="/log", method="GET"}
+- /actuator/prometheus 는 제외한 조건으로 필터
+  - http_server_requests_seconds_count{uri!="/actuator/prometheus"}
+
+연산자 쿼리와 함수
+- 다음과 같은 연산자를 지원한다.
+```
++ (덧셈)
+- (빼기)
+* (곱셈)
+/ (분할)
+% (모듈로)
+^ (승수/지수)
+```
+
+sum
+- 값의 합계를 구한다.
+예) sum(http_server_requests_seconds_count)
+
+sum by
+- sum by(method, status)(http_server_requests_seconds_count)
+- SQL의 group by 기능과 유사하다.
+
+결과
+```json
+{method="GET", status="404"} 3
+{method="GET", status="200"} 120
+```
+
+count
+- count(http_server_requests_seconds_count)
+
+메트릭 자체의 수 카운트
+- topk
+- topk(3, http_server_requests_seconds_count)
+- 상위 3개 메트릭 조회
+
+오프셋 수정자
+- http_server_requests_seconds_count offset 10m
+- offset 10m 과 같이 나타낸다. 현재를 기준으로 특정 과거 시점의 데이터를 반환한다.
+
+범위 벡터 선택기
+- http_server_requests_seconds_count[1m]
+- 마지막에 [1m] , [60s] 와 같이 표현한다. 지난 1분간의 모든 기록값을 선택한다.
+- 참고로 범위 벡터 선택기는 차트에 바로 표현할 수 없다. 데이터로는 확인할 수 있다.
